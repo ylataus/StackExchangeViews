@@ -1,0 +1,1 @@
+bigdata,hadoop,data-mining,mongodb,machine-learning,classification,nosql,map-reduce,clustering,k-means,neo4j,dimensionality-reduction,nlp,lda,feature-selection,pandas,svm,text-mining,freebase,random-forest,apache-pig,hbase,hive,apache-spark,gate,feature-construction,weka,apache-drill
