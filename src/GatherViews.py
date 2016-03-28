@@ -5,7 +5,7 @@ import httplib
 
 
 f = open("../../Access/mysql_access.txt","r")
-mysql = f.read().split(",")
+mysql = f.read().strip().split(",")
 f.close()
 
 msqlu = mysql[0]
@@ -18,7 +18,7 @@ acceso = dbaccess.get_Connection(msqlh, 3306, msqlu, msqlp, msqldb)
 
 # registered api key for more pulls
 g = open("../../Access/seapi_access.txt","r")
-mykey = g.read()
+mykey = g.read().strip()
 g.close()
 
 
