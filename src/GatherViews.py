@@ -142,8 +142,8 @@ def everyHour(Site):
         SiteAPI = stackexchange.Site(stackexchange.StackOverflow,mykey)
     elif Site.upper()=="CV":
         SiteAPI = stackexchange.Site(stackexchange.CrossValidated,mykey) 
-#     elif Site.upper()=="DS":
-#         SiteAPI = stackexchange.Site(stackexchange.DataScience,mykey)
+    elif Site.upper()=="DS":
+        SiteAPI = stackexchange.Site(stackexchange.DataScience,mykey)
     SiteAPI.throttle_stop = False   
     
     while True:
